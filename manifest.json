@@ -1,0 +1,15 @@
+{
+  "manifest_version": 1,
+
+  "name": "Twitch Leaderless",
+  "description": "This extension uses custom CSS to hide the chat leaders panel on Twitch.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "Twitch_Leaderless_ Favicon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
